@@ -1,10 +1,14 @@
 body {
     display:flex;
     flex-direction: column;
-        padding: 30px 300px;
     background-color:grey;
     font-family: "Roboto";
-    width: 70pc;
+margin: 0;
+}
+
+.bigcontainer {
+    width: 1200px;
+    height: fit-content;
 }
 
 img {
@@ -54,6 +58,8 @@ header {
 
 .sec4 {
     background-color: white;
+    display:flex;
+    justify-content: center;
 }
 
 .cards {
@@ -98,13 +104,13 @@ header {
 }
 
 .container {
-    margin:30px;
         background-color: #3882F6;
-      width: 30pc;
       justify-self: center;
       justify-content: space-between;
       color: white;
       border-radius: 2pc;
+      padding: 20px 20px;
+      flex-basis:100pc;
 
 }
 
