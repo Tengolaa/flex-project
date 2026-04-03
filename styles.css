@@ -1,0 +1,37 @@
+body {
+    display:flex;
+    flex-direction: column;
+        padding: 30px 300px;
+}
+
+img {
+    height: 300px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+.sec {
+    display:flex
+}
+
+
+
+.sec1 {
+    display: flex;
+}
+
+.sec2 {
+    flex-direction: column;
+}
+
+.sec3 {
+}
